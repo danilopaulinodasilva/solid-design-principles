@@ -8,7 +8,7 @@ https://en.wikipedia.org/wiki/Single-responsibility_principle
 
 */
 
-import logMessage from './logger.js'; // Necessary use .js to import the module when we need to run it on browser
+import logMessage from './logger.js'; // É necesário colocar .js para importar o módulo quando for executar no navegador
 
 class CalorieTracker {
     
@@ -19,9 +19,9 @@ class CalorieTracker {
 
     /*  
     
-        The only responsability of this class is track calories. So the responsability of loggin a message is in a module 
-        outside here this means the enginnering of this action is imported @ line 11 and called @ line 31 of this code. 
-        What the logMessage do, is not exposed here and there is no responsability here about it.
+        A única responsabilidade da classe CalorieTracker é medir as calorias. Então a responsabilidade de mostrar uma mensagem
+        está dentro um módulo que não está aqui, toda regra de negócio está sendo importada na linha 11 e sesndo executada na linha 31.
+        A função logMessage só é executada aqui, não há código exposto que não tenha a ver com a classe.
 
     */
 
