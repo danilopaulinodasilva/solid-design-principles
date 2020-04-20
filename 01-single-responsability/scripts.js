@@ -19,8 +19,8 @@ class CalorieTracker {
 
     /*  
     
-        The only responsability of this class is track calories. So the responsability of log the message is in a module 
-        outside here this means the enginnering of this action is imported at line 11 and called in line 31 of this code. 
+        The only responsability of this class is track calories. So the responsability of loggin a message is in a module 
+        outside here this means the enginnering of this action is imported @ line 11 and called @ line 31 of this code. 
         What the logMessage do, is not exposed here and there is no responsability here about it.
 
     */
